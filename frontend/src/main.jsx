@@ -11,6 +11,8 @@ import Signup from './pages/SignUp/signup.jsx'
 import AdminLogin from './pages/AdminLogin.jsx'
 import AdminDashboard from './pages/AdminDashboard.jsx'
 
+import About from './pages/About/about.jsx'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,7 +30,10 @@ const router = createBrowserRouter([
         path: "/signup",
         element: <Signup />
       },
-
+      {
+        path: "/about",
+        element: <About />
+      }
     ],
   },
   {
