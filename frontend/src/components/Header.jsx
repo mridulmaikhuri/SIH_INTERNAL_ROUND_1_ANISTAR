@@ -5,7 +5,7 @@ function Header() {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate('../pages/SignUp/signup.jsx');
+    navigate('../pages/LogIn/login.jsx');
   };
   
   return (
