@@ -6,7 +6,7 @@ function Home() {
     <div className=''>
       <BasicInfo />
       <div className='bg-white shadow rounded-lg p-6 mb-10 w-[95vw] mx-auto'>
-          <h2 className="text-4xl font-bold mb-8 ml-10">Departments</h2>
+          <h2 className="text-4xl font-bold mb-8 ml-5">Departments</h2>
           <div className="flex gap-4 m-5">
             <Department image="physician.jpeg" title="Physician" />
             <Department image="paediatric.jpeg" title="Pediatrics" />

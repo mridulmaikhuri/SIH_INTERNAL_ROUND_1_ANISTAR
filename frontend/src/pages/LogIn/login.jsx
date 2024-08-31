@@ -26,6 +26,19 @@ const Login = () => {
     <div className={styles.login_container}>
         <div className={styles.login_form_container}>
             <div className={styles.left}>
+                {/* <h1>Create Account</h1> */}
+                <Link to="/Signup">
+                    <button type='button' className={styles.white_btn}>
+                        Create Account
+                    </button>
+                </Link>
+                <Link to="/admin/login">
+                    <button type='button' className={styles.white_btn}>
+                        Admin Login
+                    </button>
+                </Link>
+            </div>
+            <div className={styles.right}>
                 <form className={styles.form_container} onSubmit={handleSubmit}>
                     <h1>Login to your Account</h1>
                     <input
@@ -48,18 +61,11 @@ const Login = () => {
                     />
                     {/* add a return for error message here from handleSubmit*/}
                     <button type="submit" className={styles.green_btn}>
-                        Sign In
+                        Log In
                     </button>
                 </form>
 
-            </div>
-            <div className={styles.right}>
-                <h1>New Here ?</h1>
-                <Link to="/Signup">
-                    <button type='button' className={styles.white_btn}>
-                        Sign Up
-                    </button>
-                </Link>
+
 
             </div>
         </div>

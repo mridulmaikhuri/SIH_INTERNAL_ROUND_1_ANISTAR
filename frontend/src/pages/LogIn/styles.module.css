@@ -1,13 +1,13 @@
-.signup_container {
+.login_container {
 	width: 100%;
-	min-height: 100vh;
+	min-height: 70vh;
 	background-color: #f5f5f5;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.signup_form_container {
+.login_form_container {
 	width: 900px;
 	height: 500px;
 	display: flex;
@@ -22,7 +22,8 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #3bb19b;
+	gap: 32px;
+	background-color: #2d3748;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
@@ -92,7 +93,7 @@
 }
 
 .green_btn {
-	background-color: #3bb19b;
+	background-color: #2d3748;
 	color: white;
 	margin: 10px;
 }
