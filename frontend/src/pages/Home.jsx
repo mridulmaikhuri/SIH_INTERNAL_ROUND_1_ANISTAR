@@ -4,9 +4,9 @@ import { BasicInfo, Department } from '../components'
 function Home() {
   return (
     <main className='ml-5'>
-      <BasicInfo />
+        <BasicInfo />
       <h2 className="text-4xl font-bold mb-8">Departments</h2>
-      <div className="flex gap-4">
+      <div className="flex gap-4 overflow-x-visible">
         <Department image="physician.jpeg" title="Physician" />
         <Department image="paediatric.jpeg" title="Pediatrics" />
         <Department image="Orthopedics.jpeg" title="Orthopedics" />

@@ -9,6 +9,7 @@ import Home from './pages/Home.jsx'
 import Login from './pages/LogIn/login.jsx'
 import Signup from './pages/SignUp/signup.jsx'
 import AdminLogin from './pages/AdminLogin.jsx'
+import AdminDashboard from './pages/AdminDashboard.jsx'
 
 const router = createBrowserRouter([
   {
@@ -34,8 +35,12 @@ const router = createBrowserRouter([
     element: <Admin />,
     children: [
       {
-        path: "/admin/login",
+        path: "login",
         element: <AdminLogin />,
+      },
+      {
+        path: "dashboard",
+        element: <AdminDashboard />
       }
     ]
   }
