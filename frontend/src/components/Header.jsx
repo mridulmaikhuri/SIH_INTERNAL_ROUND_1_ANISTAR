@@ -1,5 +1,5 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 function Header() {
   const navigate = useNavigate();
@@ -12,8 +12,12 @@ function Header() {
       </div>
       <nav className='text-xl'>
         <ul className="flex space-x-8">
-          <li className="cursor-pointer">Home</li>
-          <li className="cursor-pointer">About Us</li>
+          <li className="cursor-pointer">
+            <Link to = "/">Home</Link>
+          </li>
+          <li className="cursor-pointer">
+            <Link to = "/about">About Us</Link>
+          </li>
         </ul>
       </nav>
       <div className='flex space-x-2'>
