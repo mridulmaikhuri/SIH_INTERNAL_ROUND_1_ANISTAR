@@ -1,11 +1,9 @@
-import './App.css'
 import { Outlet } from 'react-router-dom'
 import { Footer, Header } from './components'
 
 function App() {
-
   return (
-    <div className='border border-black w-screen h-screen'>
+    <div className='min-w-[100vw] min-h-[100vh]'>
       <Header />
       <main> <Outlet /> </main>
       <Footer />
