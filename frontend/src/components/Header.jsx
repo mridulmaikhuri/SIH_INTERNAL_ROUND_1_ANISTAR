@@ -1,6 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate('../pages/SignUp/signup.jsx');
+  };
+  
   return (
     <header className="flex justify-between items-center p-5 bg-white border-b border-black h-[9vh]">
       <div className="font-bold text-2xl flex items-center gap-2">
@@ -13,7 +20,7 @@ function Header() {
           <li className="cursor-pointer">About Us</li>
         </ul>
       </nav>
-      <button className="bg-black text-white px-4 py-2 rounded-md hover:opacity-70">Login</button>
+      <button onClick={handleButtonClick} className="bg-black text-white px-4 py-2 rounded-md hover:opacity-70">Login</button>
     </header>
   )
 }

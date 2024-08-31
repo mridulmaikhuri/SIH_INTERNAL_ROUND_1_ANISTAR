@@ -10,7 +10,7 @@ function Home() {
           <p className="text-lg leading-relaxed">
             ZKHealthCare Medical Institute is a state-of-the-art facility dedicated to providing comprehensive healthcare
             services with compassion and expertise. Our team of skilled professionals is committed to delivering
-            personalized care tailored to each patient's needs. At ZKHealthCare, we prioritize your well-being, ensuring a
+            personalized care tailored to each patients needs. At ZKHealthCare, we prioritize your well-being, ensuring a
             harmonious journey towards optimal health and wellness.
           </p>
         </section>
