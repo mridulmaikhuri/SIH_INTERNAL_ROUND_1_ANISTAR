@@ -1,23 +1,19 @@
 import React from 'react'
+import { BasicInfo, Department } from '../components'
 
 function Home() {
   return (
-    <main className="flex justify-between items-center p-12">
-        <section className="max-w-lg">
-          <h1 className="text-3xl font-bold mb-5">
-            Learn More About Us | ZKHealthCare Medical Institute
-          </h1>
-          <p className="text-lg leading-relaxed">
-            ZKHealthCare Medical Institute is a state-of-the-art facility dedicated to providing comprehensive healthcare
-            services with compassion and expertise. Our team of skilled professionals is committed to delivering
-            personalized care tailored to each patients needs. At ZKHealthCare, we prioritize your well-being, ensuring a
-            harmonious journey towards optimal health and wellness.
-          </p>
-        </section>
-        <section className="w-1/3">
-          <img src="banner.jpeg" alt="ZKHealthCare Illustration" className="w-full h-auto" />
-        </section>
-      </main>
+    <main className='ml-5'>
+      <BasicInfo />
+      <h2 className="text-4xl font-bold mb-8">Departments</h2>
+      <div className="flex gap-4">
+        <Department image="physician.jpeg" title="Physician" />
+        <Department image="paediatric.jpeg" title="Pediatrics" />
+        <Department image="Orthopedics.jpeg" title="Orthopedics" />
+        <Department image="Cardiology.jpeg" title="Cardiology" />
+        <Department image="Neurology.jpeg" title="Neurology" />
+      </div>
+    </main>
   )
 }
 
