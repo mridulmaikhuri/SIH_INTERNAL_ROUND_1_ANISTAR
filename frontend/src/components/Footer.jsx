@@ -3,9 +3,8 @@ import { FaBeer, FaFacebook, FaTwitter, FaInstagram  } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-300 py-8 mt-10 max-w-screen">
+    <footer className="bg-gray-800 text-gray-300 py-8 max-w-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ml-6 flex flex-wrap justify-between">
-
         <div className="w-full md:w-1/4 mb-6 md:mb-0">
           <h3 className="text-white text-xl font-bold">ZKHealthCare</h3>
           <p className="mt-2 mr-6">ZKHealthCare Medical Institute is a state-of-the-art facility dedicated to providing comprehensive healthcare services with compassion and expertise.</p>
@@ -45,9 +44,7 @@ function Footer() {
             </a>
           </div>
         </div>
-
       </div>
-
       <div className="mt-8 text-center text-gray-400">
         <p>&copy; 2024 ZKHealthCare. All rights reserved.</p>
       </div>

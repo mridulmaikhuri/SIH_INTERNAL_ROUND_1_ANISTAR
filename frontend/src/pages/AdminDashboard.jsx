@@ -35,7 +35,7 @@ function AdminDashboard() {
             </header>
 
             <main>
-                <div className="bg-white shadow rounded-lg p-6 mb-3">
+                <div className="bg-white shadow rounded-lg p-6 mb-3 w-full mx-auto">
                     <h2 className="text-2xl font-semibold mb-4">Add New Patient</h2>
                     <form onSubmit={handleSubmit} className="mb-8 grid grid-cols-2 gap-4">
                         <div className="flex flex-col">

@@ -13,10 +13,10 @@ function Header() {
       <nav className='text-xl'>
         <ul className="flex space-x-8">
           <li className="cursor-pointer">
-            <Link to="/">Home</Link>
+            <Link to = "/">Home</Link>
           </li>
           <li className="cursor-pointer">
-            <Link to="/about">About Us</Link>
+            <Link to = "/about">About Us</Link>
           </li>
         </ul>
       </nav>

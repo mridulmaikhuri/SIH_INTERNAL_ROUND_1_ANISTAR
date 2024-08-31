@@ -2,7 +2,7 @@ import React from 'react'
 
 function BasicInfo() {
     return (
-        <div className="flex justify-between items-center p-12">
+        <div className="flex justify-between items-center p-12 bg-white shadow rounded-lg mb-3 w-[95vw] mt-5 mx-auto">
             <section className="max-w-lg">
                 <h1 className="text-3xl font-bold mb-5">
                     Learn More About Us | ZKHealthCare Medical Institute
