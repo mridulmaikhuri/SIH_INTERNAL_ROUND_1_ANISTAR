@@ -31,12 +31,12 @@ function AdminDashboard() {
         <div className="min-h-screen bg-gray-100 p-6">
             <header className="mb-8 text-center">
                 <h1 className="text-4xl font-bold text-gray-800">Admin Dashboard</h1>
-                <p className="text-gray-600">Manage patient information with ease</p>
+                <p className="text-gray-600">Manage Patient Information with Ease</p>
             </header>
 
             <main>
                 <div className="bg-white shadow rounded-lg p-6 mb-3 w-full mx-auto">
-                    <h2 className="text-2xl font-semibold mb-4">Add New Patient</h2>
+                    <h2 className="text-3xl font-semibold mb-4 text-center">Add New Patient</h2>
                     <form onSubmit={handleSubmit} className="mb-8 grid grid-cols-2 gap-4">
                         <div className="flex flex-col">
                             <label className="mb-2 text-gray-700">ID</label>
@@ -45,7 +45,7 @@ function AdminDashboard() {
                                 name="id"
                                 value={newPatient.id}
                                 onChange={handleInputChange}
-                                className="p-2 border border-gray-300 rounded"
+                                className="bg-gray-100 p-2 border border-gray-300 rounded"
                                 placeholder="Patient ID"
                             />
                         </div>
@@ -56,7 +56,7 @@ function AdminDashboard() {
                                 name="name"
                                 value={newPatient.name}
                                 onChange={handleInputChange}
-                                className="p-2 border border-gray-300 rounded"
+                                className="bg-gray-100 p-2 border border-gray-300 rounded"
                                 placeholder="Patient Name"
                             />
                         </div>
@@ -67,7 +67,7 @@ function AdminDashboard() {
                                 name="age"
                                 value={newPatient.age}
                                 onChange={handleInputChange}
-                                className="p-2 border border-gray-300 rounded"
+                                className="bg-gray-100 p-2 border border-gray-300 rounded"
                                 placeholder="Patient Age"
                             />
                         </div>
@@ -77,7 +77,7 @@ function AdminDashboard() {
                                 name="gender"
                                 value={newPatient.gender}
                                 onChange={handleInputChange}
-                                className="p-2 border border-gray-300 rounded"
+                                className="bg-gray-100 p-2 border border-gray-300 rounded"
                             >
                                 <option value="">Select Gender</option>
                                 <option value="Male">Male</option>
@@ -91,7 +91,7 @@ function AdminDashboard() {
                                 name="weight"
                                 value={newPatient.weight}
                                 onChange={handleInputChange}
-                                className="p-2 border border-gray-300 rounded"
+                                className="bg-gray-100 p-2 border border-gray-300 rounded"
                                 placeholder="Weight in kg"
                             />
                         </div>
@@ -102,22 +102,25 @@ function AdminDashboard() {
                                 name="bp"
                                 value={newPatient.bp}
                                 onChange={handleInputChange}
-                                className="p-2 border border-gray-300 rounded"
+                                className="bg-gray-100 p-2 border border-gray-300 rounded"
                                 placeholder="BP (e.g., 120/80)"
                             />
                         </div>
+                        
+                    </form>
+                    <div className='flex items-center justify-center'>
                         <button
                             type="submit"
-                            className="col-span-2 mt-4 bg-blue-500 text-white py-2 rounded hover:bg-blue-600"
+                            className="w-96 mt-4 bg-gray-800 text-white py-2 rounded hover:bg-gray-800"
                         >
                             Add Patient
                         </button>
-                    </form>
+                    </div>
                 </div>
 
                 <div className="bg-white shadow rounded-lg p-6">
 
-                    <h2 className="text-2xl font-semibold mb-4">Patient List</h2>
+                    <h2 className="text-3xl font-semibold mb-4 text-center">Patient List</h2>
                     <div className="overflow-x-auto">
                         <table className="min-w-full bg-white border border-gray-200">
                             <thead>
