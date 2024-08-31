@@ -1,4 +1,43 @@
 .container {
-    background-color: lightblue;
+    background-color: #fff8dc10;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 64px;
+}
+
+.main_heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.block_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_left {
+    display: flex;
+}
+
+.main_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
 }
