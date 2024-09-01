@@ -17,8 +17,8 @@ This README provides an overview of the project, including team details, relevan
 
 ## Project Links
 
-- **Internal Presentation:** [Internal Presentation](URL TO PPT UPLOADED TO GITHUB)
-- **Final SIH Presentation:** [Final SIH Presentation](URL TO PPT UPLOADED TO GITHUB)
+- **Internal Presentation:** [Internal Presentation](https://github.com/mridulmaikhuri/sih/blob/main/files/internal.pdf)
+- **Final SIH Presentation:** [Final SIH Presentation](https://github.com/mridulmaikhuri/sih/blob/main/files/external%20.pdf)
 - **Video Demonstration:** [Watch Video](UNLISTED YOUTUBE LINK)
 - **Source Code:** [GitHub Repository](GITHUB LINK TO THE REPO)
 - **Additional Resources:** [Other Relevant Links](ANY OTHER RELEVANT LINKS)
