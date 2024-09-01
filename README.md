@@ -5,14 +5,14 @@ This project involves using an LLM to analyze the patient data and provide a com
 
 **Team Name:** Anistar
 
-**Team Leader:** **Akshat Rana** - 2022UIT3023 - [@USERNAME](https://github.com/USERNAME)
+**Team Leader:** **Akshat Rana** - 2022UIT3023 - [@USERNAME](https://github.com/Akkki28)
 
 **Team Members:**
 - **Hitsh Makkar** - 2022UCD3033 - [@USERNAME](https://github.com/hiteshmk05)
 - **Himanshu Mallick** - 2022UIT3064 - [@USERNAME](https://github.com/himanshumallickgit)
 - **Nikhil Saini** - 2022UIT3008 - [@USERNAME](https://github.com/nikhilpro425)
 - **Mridul Maikhuri** - 2022UIT3057 - [@USERNAME](https://github.com/mridulmaikhuri)
-- **Richa Thakur** - 2022UCA1824 - [@USERNAME](https://github.com/USERNAME)
+- **Richa Thakur** - 2022UCA1824 - [@USERNAME](https://github.com/Ahciruisi)
 
 ## Project Links
 
