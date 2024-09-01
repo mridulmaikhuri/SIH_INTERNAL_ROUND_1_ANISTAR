@@ -10,15 +10,14 @@ const SideNavbar = () => {
   };
 
   return (
-    <div className="flex flex-col justify-between h-screen w-[20vw] bg-gray-800 text-white p-4">
-      <div className="flex flex-col items-center mt-5">
-        
+    <div className="flex flex-col justify-between w-[20vw] bg-gray-800 text-white p-4">
+      <div className="flex items-center mt-5 gap-4">
         <img
           src="/logo.jpeg"
           alt="zkHealthCare"
-          className="w-28 h-auto mb-3"
+          className="w-[5vw] rounded-full"
         />
-        <h1>ZK HEALTHCARE</h1>
+        <h1 className='text-xl'>ZK HEALTHCARE</h1>
       </div>
       <br />
       <nav className="flex flex-col mt-16 space-y-4">

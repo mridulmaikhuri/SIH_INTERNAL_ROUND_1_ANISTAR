@@ -20,7 +20,7 @@ function PatientMetricsCard({ patient }) {
             <br />
             <p><strong>Pregnancies:</strong> {patient.Pregnancies}</p>
             <br />
-            <p><strong>Fasting Blood Sugar > 120:</strong> {patient.FastingBloodSugar ? 'Yes' : 'No'}</p>
+            <p><strong>Fasting Blood Sugar {'>'} 120:</strong> {patient.FastingBloodSugar ? 'Yes' : 'No'}</p>
             <br />
             <p><strong>Cholesterol:</strong> {patient.Cholestrol} mg/dL</p>
         </div>

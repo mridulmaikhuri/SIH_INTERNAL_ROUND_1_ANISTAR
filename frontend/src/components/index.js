@@ -4,6 +4,7 @@ import BasicInfo from "./HomeComp/BasicInfo";
 import Department from "./HomeComp/Department";
 import UserNavbar from "./UserNavbar";
 import AuthLayout from "./AuthLayout";
+import PatientGaugeChart from "./patientGaugeChart";
 
 export {
     Header,
@@ -11,5 +12,6 @@ export {
     BasicInfo,
     Department,
     UserNavbar,
-    AuthLayout
+    AuthLayout,
+    PatientGaugeChart
 }

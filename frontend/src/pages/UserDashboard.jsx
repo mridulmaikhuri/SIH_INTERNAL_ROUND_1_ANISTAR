@@ -25,9 +25,9 @@ const patientData = {
 
 function UserDashboard() {
     return (
-        <div className="min-h-screen bg-gray-100 p-6 grid grid-cols-3 gap-6">
+        <div className="w-full min-h-screen bg-gray-100 p-6 grid grid-cols-3 gap-6">
             <div className="bg-white shadow rounded-lg p-6 col-span-1">
-                <div className="flex items-center mb-6">
+                <div className="flex items-center justify-center mb-6">
                     <h2 className="text-xl font-semibold ml-4">{patientData.Pname}</h2>
                 </div>
                 <PatientInfoCard patient={patientData} />
