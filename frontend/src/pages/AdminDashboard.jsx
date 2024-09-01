@@ -138,7 +138,7 @@ function AdminDashboard() {
                             </thead>
                             <tbody>
                                 {patients.map((patient) => (
-                                    <tr key={patient.id} className='text-xl cursor-pointer' onClick={() => navigate(`/patient/${patient.id}`)}>
+                                    <tr key={patient.id} className='text-xl cursor-pointer' onClick={() => navigate(`/admin/patient/${patient.id}`)}>
                                         <td className="py-2 px-4 border-b text-gray-700">
                                             {patient.id}
                                         </td>

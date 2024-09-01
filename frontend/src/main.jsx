@@ -17,6 +17,7 @@ import About from './pages/About/about.jsx'
 import AuthLayout from './components/AuthLayout.jsx'
 import UserAnalytics from './pages/UserAnalytics.jsx'
 import UserReport from './pages/UserReport.jsx'
+import PatientDashboard from './pages/PatientDashboard.jsx'
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,15 @@ const router = createBrowserRouter([
           <AuthLayout url='/admin/login'>
             {" "}
             <AdminDashboard/>
+          </AuthLayout>
+        )
+      },
+      {
+        path: "patient/:patientId",
+        element: (
+          <AuthLayout url='/admin/login'>
+            {" "}
+            <PatientDashboard />
           </AuthLayout>
         )
       }
