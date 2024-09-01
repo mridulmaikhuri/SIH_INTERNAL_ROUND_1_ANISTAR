@@ -6,11 +6,9 @@ This README provides an overview of the project, including team details, relevan
 
 **Team Name:** Anistar
 
-**Team Leader:** [@USERNAME](https://github.com/Akkki28)
+**Team Leader:** **Akshat Rana** - 2022UIT3023 - [@USERNAME](https://github.com/USERNAME)
 
 **Team Members:**
-
-- **Akshat Rana** - 2022UIT3023 - [@USERNAME](https://github.com/USERNAME)
 - **Hitsh Makkar** - 2022UCD3033 - [@USERNAME](https://github.com/hiteshmk05)
 - **Himanshu Mallick** - 2022UIT3064 - [@USERNAME](https://github.com/himanshumallickgit)
 - **Nikhil Saini** - 2022UIT3008 - [@USERNAME](https://github.com/nikhilpro425)
