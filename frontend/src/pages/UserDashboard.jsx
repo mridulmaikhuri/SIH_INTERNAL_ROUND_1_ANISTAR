@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 function UserDashboard() {
     const {userId} = useParams();
   return (
-    <div>UserDashboard</div>
+    <div>UserDashboard My name is Himanshu Mallick</div>
   )
 }
 
