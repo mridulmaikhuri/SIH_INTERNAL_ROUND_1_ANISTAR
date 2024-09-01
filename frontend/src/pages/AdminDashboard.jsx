@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function AdminDashboard() {
+    const navigate = useNavigate();
+    
     const [patients, setPatients] = useState([
         { id: 1, name: 'John Doe', age: 45, gender: 'Male', weight: 75, bp: '120/80' },
         { id: 2, name: 'Jane Smith', age: 29, gender: 'Female', weight: 65, bp: '110/70' },
@@ -136,36 +138,24 @@ function AdminDashboard() {
                             </thead>
                             <tbody>
                                 {patients.map((patient) => (
-                                    <tr key={patient.id} className='text-xl'>
+                                    <tr key={patient.id} className='text-xl cursor-pointer' onClick={() => navigate(`/patient/${patient.id}`)}>
                                         <td className="py-2 px-4 border-b text-gray-700">
-                                            <Link to="#" className="block">
-                                                {patient.id}
-                                            </Link>
+                                            {patient.id}
                                         </td>
                                         <td className="py-2 px-4 border-b text-gray-700">
-                                            <Link to="#" className="block">
-                                                {patient.name}
-                                            </Link>
+                                            {patient.name}
                                         </td>
                                         <td className="py-2 px-4 border-b text-gray-700">
-                                            <Link to="#" className="block">
-                                                {patient.age}
-                                            </Link>
+                                            {patient.age}
                                         </td>
                                         <td className="py-2 px-4 border-b text-gray-700">
-                                            <Link to="#" className="block">
-                                                {patient.gender}
-                                            </Link>
+                                            {patient.gender}
                                         </td>
                                         <td className="py-2 px-4 border-b text-gray-700">
-                                            <Link to="#" className="block">
-                                                {patient.weight}
-                                            </Link>
+                                            {patient.weight}
                                         </td>
                                         <td className="py-2 px-4 border-b text-gray-700">
-                                            <Link to="#" className="block">
-                                                {patient.bp}
-                                            </Link>
+                                            {patient.bp}
                                         </td>
                                     </tr>
                                 ))}
