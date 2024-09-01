@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function AdminDashboard() {
     const [patients, setPatients] = useState([
@@ -106,7 +107,7 @@ function AdminDashboard() {
                                 placeholder="BP (e.g., 120/80)"
                             />
                         </div>
-                        
+
                     </form>
                     <div className='flex items-center justify-center'>
                         <button
@@ -123,8 +124,8 @@ function AdminDashboard() {
                     <h2 className="text-3xl font-semibold mb-4 text-center">Patient List</h2>
                     <div className="overflow-x-auto">
                         <table className="min-w-full bg-white border border-gray-200">
-                            <thead>
-                                <tr>
+                            <thead className='bg-gray-100'>
+                                <tr className='text-2xl'>
                                     <th className="py-2 px-4 border-b text-left text-gray-700 font-medium">ID</th>
                                     <th className="py-2 px-4 border-b text-left text-gray-700 font-medium">Name</th>
                                     <th className="py-2 px-4 border-b text-left text-gray-700 font-medium">Age</th>
@@ -135,13 +136,37 @@ function AdminDashboard() {
                             </thead>
                             <tbody>
                                 {patients.map((patient) => (
-                                    <tr key={patient.id}>
-                                        <td className="py-2 px-4 border-b text-gray-700">{patient.id}</td>
-                                        <td className="py-2 px-4 border-b text-gray-700">{patient.name}</td>
-                                        <td className="py-2 px-4 border-b text-gray-700">{patient.age}</td>
-                                        <td className="py-2 px-4 border-b text-gray-700">{patient.gender}</td>
-                                        <td className="py-2 px-4 border-b text-gray-700">{patient.weight}</td>
-                                        <td className="py-2 px-4 border-b text-gray-700">{patient.bp}</td>
+                                    <tr key={patient.id} className='text-xl'>
+                                        <td className="py-2 px-4 border-b text-gray-700">
+                                            <Link to="#" className="block">
+                                                {patient.id}
+                                            </Link>
+                                        </td>
+                                        <td className="py-2 px-4 border-b text-gray-700">
+                                            <Link to="#" className="block">
+                                                {patient.name}
+                                            </Link>
+                                        </td>
+                                        <td className="py-2 px-4 border-b text-gray-700">
+                                            <Link to="#" className="block">
+                                                {patient.age}
+                                            </Link>
+                                        </td>
+                                        <td className="py-2 px-4 border-b text-gray-700">
+                                            <Link to="#" className="block">
+                                                {patient.gender}
+                                            </Link>
+                                        </td>
+                                        <td className="py-2 px-4 border-b text-gray-700">
+                                            <Link to="#" className="block">
+                                                {patient.weight}
+                                            </Link>
+                                        </td>
+                                        <td className="py-2 px-4 border-b text-gray-700">
+                                            <Link to="#" className="block">
+                                                {patient.bp}
+                                            </Link>
+                                        </td>
                                     </tr>
                                 ))}
                             </tbody>
