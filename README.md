@@ -1,6 +1,5 @@
-# PS Chosen for Internal Hackathon (File Name from the drive folder)
-
-This README provides an overview of the project, including team details, relevant links, tasks completed, tech stack, key features, and steps to run the project locally.
+# AI-Enhanced Healthcare Diagnostics and management System (Inspired by ZK Medical Billing Platform)
+This project involves using an LLM to analyze the patient data and provide a comprehensive diagnosis and treatment plan for the the disease. Also provided with analytics for visualization of the data for increased explainability. The portal is integrated with a user friendly interface allowing patient as well as Admin login for easy access of data.The LLM also does anomaly detection if the relevant data is provided.
 
 ## Team Details
 
