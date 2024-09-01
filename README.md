@@ -18,6 +18,4 @@ This project involves using an LLM to analyze the patient data and provide a com
 
 - **Internal Presentation:** [Internal Presentation](https://github.com/mridulmaikhuri/sih/blob/main/files/internal.pdf)
 - **Final SIH Presentation:** [Final SIH Presentation](https://github.com/mridulmaikhuri/sih/blob/main/files/external%20.pdf)
-- **Video Demonstration:** [Watch Video](UNLISTED YOUTUBE LINK)
-- **Source Code:** [GitHub Repository](GITHUB LINK TO THE REPO)
-- **Additional Resources:** [Other Relevant Links](ANY OTHER RELEVANT LINKS)
+- **Video Demonstration:** [Watch Video](https://youtu.be/OcdIeCuptWU)
