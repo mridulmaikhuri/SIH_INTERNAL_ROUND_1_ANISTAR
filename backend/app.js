@@ -72,5 +72,20 @@ app.post('/patient/login', async (req, res) => {
     }
 });
 
+app.get('/patient/:id', async (req, res) => {
+    const { id } = req.params;
+
+    try {
+        const patient = await Patient.findById(id);
+        if (!patient) {
+            return res.status(404).json({ msg: 'Patient not found' });
+        }
+        res.status(200).json(patient);
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).send('Server error');
+    }
+});
+
 
 export default app;
