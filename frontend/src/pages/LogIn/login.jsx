@@ -32,11 +32,6 @@ const Login = () => {
                         Create Account
                     </button>
                 </Link>
-                <Link to="/admin/login">
-                    <button type='button' className={styles.white_btn}>
-                        Admin Login
-                    </button>
-                </Link>
             </div>
             <div className={styles.right}>
                 <form className={styles.form_container} onSubmit={handleSubmit}>
@@ -64,9 +59,6 @@ const Login = () => {
                         Log In
                     </button>
                 </form>
-
-
-
             </div>
         </div>
     </div>
