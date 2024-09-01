@@ -12,7 +12,7 @@ This project involves using an LLM to analyze the patient data and provide a com
 - **Himanshu Mallick** - 2022UIT3064 - [@USERNAME](https://github.com/himanshumallickgit)
 - **Nikhil Saini** - 2022UIT3008 - [@USERNAME](https://github.com/nikhilpro425)
 - **Mridul Maikhuri** - 2022UIT3057 - [@USERNAME](https://github.com/mridulmaikhuri)
-- **Richa** - 2022UCA1824 - [@USERNAME](https://github.com/USERNAME)
+- **Richa Thakur** - 2022UCA1824 - [@USERNAME](https://github.com/USERNAME)
 
 ## Project Links
 
