@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styles from './styles.module.css';
 import React from 'react';
 
@@ -9,6 +9,7 @@ const Login = () => {
         password: ""
     });
 
+    const navigate = useNavigate();
 
     const handleChange = ({currentTarget: input}) => {
         setData({...data, [input.name]: input.value });
@@ -16,10 +17,29 @@ const Login = () => {
     
     const handleSubmit = async  (e) => {
         e.preventDefault();
-        // Transfer to login page after storing SignUp data in BACKEND 
-        // If any backend error occurs Return that error
-        // navigate("/login") change this so it navigates to Page after Login
+        try {
+            const response = await fetch('http://localhost:4000/patient/login', { // Make sure the URL is correct
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            });
 
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.msg || 'Something went wrong');
+            }
+
+            const result = await response.json();
+            console.log(result); // Handle success response
+
+            // Navigate to user dashboard or home page after successful login
+            navigate(`/user/dashboard/${result.userId}`); // Adjust the URL as needed
+        } catch (err) {
+            console.error(err.message); // Handle error message
+            // Optionally, you can set an error message in state to display to the user
+        }
     }
 
     return (

@@ -20,9 +20,27 @@ const Signup = () => {
     
     const handleSubmit = async  (e) => {
         e.preventDefault();
-        // Transfer to login page after storing SignUp data in BACKEND 
-        // If any backend error occurs Return that error
-        navigate("/login")
+        try {
+            const response = await fetch('http://localhost:4000/patient/register', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data), // Pass the data as JSON
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.msg || 'Something went wrong');
+            }
+
+            const result = await response.json();
+            console.log(result); 
+
+            navigate(`/user/dashboard/${result.user._id}`);
+        } catch (err) {
+            console.error(err.message); // Set error message to state
+        }
     }
 
     return (
