@@ -23,7 +23,8 @@
 
 .block_left {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main_info {
@@ -37,6 +38,8 @@
 .block_right {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .image {

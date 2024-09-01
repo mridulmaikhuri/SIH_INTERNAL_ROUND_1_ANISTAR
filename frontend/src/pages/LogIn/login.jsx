@@ -26,10 +26,15 @@ const Login = () => {
     <div className={styles.login_container}>
         <div className={styles.login_form_container}>
             <div className={styles.left}>
-                {/* <h1>Create Account</h1> */}
+                <h1>New Here?</h1>
                 <Link to="/Signup">
                     <button type='button' className={styles.white_btn}>
                         Create Account
+                    </button>
+                </Link>
+                <Link to="/admin/login">
+                    <button type='button' className={styles.white_btn}>
+                        Admin Sign In
                     </button>
                 </Link>
             </div>
