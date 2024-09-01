@@ -35,6 +35,11 @@ const Signup = () => {
                         Sign In
                     </button>
                 </Link>
+                <Link to="/admin/login">
+                    <button type='button' className={styles.white_btn}>
+                        Admin Sign In
+                    </button>
+                </Link>
             </div>
             <div className={styles.right}>
                 <form className={styles.form_container} onSubmit={handleSubmit}>
