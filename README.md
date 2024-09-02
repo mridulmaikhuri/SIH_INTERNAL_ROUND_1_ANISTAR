@@ -1,5 +1,6 @@
 # AI-Enhanced Healthcare Diagnostics and management System (Inspired by ZK Medical Billing Platform)
 This project involves using an LLM to analyze the patient data and provide a comprehensive diagnosis and treatment plan for the the disease. Also provided with analytics for visualization of the data for increased explainability. The portal is integrated with a user friendly interface allowing patient as well as Admin login for easy access of data.The LLM also does anomaly detection if the relevant data is provided.
+- **Live Deployment:** [View Deployment](https://sih-thing-mbsu.vercel.app/)
 
 ## Team Details
 
@@ -19,4 +20,4 @@ This project involves using an LLM to analyze the patient data and provide a com
 - **Internal Presentation:** [Internal Presentation](https://github.com/mridulmaikhuri/sih/blob/main/files/internal_PPT_ANISTAR.pdf)
 - **Final SIH Presentation:** [Final SIH Presentation](https://github.com/mridulmaikhuri/sih/blob/main/files/SIH_PPT_ANISTAR%20.pdf)
 - **Video Demonstration:** [Watch Video](https://youtu.be/OcdIeCuptWU)
-- **Live Deployment:** [View Deployment]()
+- **Live Deployment:** [View Deployment](https://sih-thing-mbsu.vercel.app/)
